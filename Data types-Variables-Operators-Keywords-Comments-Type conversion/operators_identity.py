@@ -6,8 +6,8 @@ b = 20
 c = 10
 
 print(a is not b)
-print(a is c)
+# print(a is c)
 
-m = "abcd"
-print("abc" is m)
-print("abcd" == m)
+# m = "abcd"
+# print("abc" is m)
+# print("abcd" == m)

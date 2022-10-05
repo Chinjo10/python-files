@@ -8,6 +8,6 @@ name = 'JJ Tech'
 fruits = ["banana", "apple", "watermelon"]
 
 
-print('J' in name)
-print('vamsi' in name)
+print('n' in name)
+print(x in name)
 print("kiwi" not in fruits)

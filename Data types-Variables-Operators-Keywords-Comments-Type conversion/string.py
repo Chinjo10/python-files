@@ -6,7 +6,7 @@ print(a)
 fruit_type = "banana"
 print(fruit_type)
 
-c = ''
+c = ""
 print(c)
 print(len(c))
 

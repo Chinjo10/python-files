@@ -12,3 +12,4 @@ print(type(11.3))
 print(type(2000.4))
 print(type(a))
 print(type(height))
+ 

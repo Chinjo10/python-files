@@ -7,13 +7,13 @@ b = 'hello'
 c = False
 d = None
 
-# d= "vamsi"
+# # d= "vamsi"
 
 print(a)
 print(b)
 print(c)
 print(d)
-# print(len(d))
+#print(len(d))
 
 # get the type of None, with type keyword
 print(type(a))
@@ -21,7 +21,7 @@ print(type(b))
 print(type(c))
 print(type(d))
 
-# example usecase for None
+# # example usecase for None
 
 blood_group = None
 

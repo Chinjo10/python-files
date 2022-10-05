@@ -9,7 +9,7 @@ item_quantity = 10
 print(item_quantity)
 
 
-# print the type of data, using python keyword called type
+# # print the type of data, using python keyword called type
 print(type(1))
 print(type(2))
 print(type(a))

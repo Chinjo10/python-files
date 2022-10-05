@@ -13,25 +13,25 @@ my_list = [1, "car", 10.40, True]
 
 
 # printing the list items
-print('\n# printing the list items')
+
 print(fruits, id(fruits))
 print(prices)
 print(numbers)
 print(my_list)
 
-# # check the data type
+# # # check the data type
 print('\n# check the data type')
 print(type(fruits))
 print(type(numbers))
 
 
-# # nested list
+# # # nested list
 print('\n# nested list')
 my_custom_list = [fruits, prices, [6, 10, 2]]
 print(my_custom_list)
 
 
-# # length of list
+# # # length of list
 print('\n# length of the list')
 print(len(fruits))
 
@@ -49,33 +49,25 @@ print(fruits[1:4])
 print(fruits[1:])
 
 
-# # peform actions on list
-# # return attributes and methods of an object
+# # # peform actions on list
+# # # return attributes and methods of an object
 print('\n# dir() method')
 print(dir(fruits))
 
-# # modify particular index of list with new item
+# # # modify particular index of list with new item
 print('\n # modify particular index of list with new item')
 print(prices)
 prices[1] = '$1000'
 print(prices)
 
-# # append items to existing list
-print('\n# append() method')
-fruits.append("mango")
-print(fruits)
 
-# sort the list
-print('\n# sort() the list')
-fruits.sort()
-print(fruits)
 
 # # insert item at a particular index
 print('\n# insert item at a particular index')
 fruits.insert(1,'grapes')
 print(fruits)
 
-# remove an item from the list
+# # remove an item from the list
 print('\n# remove an item from the list')
 fruits.remove('watermelon')
 print(fruits)
